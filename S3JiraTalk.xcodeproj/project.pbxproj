@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFFEF5521682CDFE00C10C35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFEF5511682CDFE00C10C35 /* Cocoa.framework */; };
+		DFFEF55C1682CDFE00C10C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFFEF55A1682CDFE00C10C35 /* InfoPlist.strings */; };
+		DFFEF5601682CDFE00C10C35 /* S3JiraTalk.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFEF55F1682CDFE00C10C35 /* S3JiraTalk.m */; };
+		DFFEF5681682CDFE00C10C35 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFEF5671682CDFE00C10C35 /* SenTestingKit.framework */; };
+		DFFEF5691682CDFE00C10C35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFEF5511682CDFE00C10C35 /* Cocoa.framework */; };
+		DFFEF56C1682CDFE00C10C35 /* S3JiraTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFEF54E1682CDFE00C10C35 /* S3JiraTalk.framework */; };
+		DFFEF5721682CDFE00C10C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFFEF5701682CDFE00C10C35 /* InfoPlist.strings */; };
+		DFFEF5751682CDFE00C10C35 /* S3JiraTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFEF5741682CDFE00C10C35 /* S3JiraTalkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFFEF56A1682CDFE00C10C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFFEF5441682CDFE00C10C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFFEF54D1682CDFE00C10C35;
+			remoteInfo = S3JiraTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFFEF54E1682CDFE00C10C35 /* S3JiraTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = S3JiraTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFEF5511682CDFE00C10C35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DFFEF5541682CDFE00C10C35 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DFFEF5551682CDFE00C10C35 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DFFEF5561682CDFE00C10C35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFFEF5591682CDFE00C10C35 /* S3JiraTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "S3JiraTalk-Info.plist"; sourceTree = "<group>"; };
+		DFFEF55B1682CDFE00C10C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFFEF55D1682CDFE00C10C35 /* S3JiraTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "S3JiraTalk-Prefix.pch"; sourceTree = "<group>"; };
+		DFFEF55E1682CDFE00C10C35 /* S3JiraTalk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S3JiraTalk.h; sourceTree = "<group>"; };
+		DFFEF55F1682CDFE00C10C35 /* S3JiraTalk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S3JiraTalk.m; sourceTree = "<group>"; };
+		DFFEF5661682CDFE00C10C35 /* S3JiraTalkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3JiraTalkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFEF5671682CDFE00C10C35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFFEF56F1682CDFE00C10C35 /* S3JiraTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "S3JiraTalkTests-Info.plist"; sourceTree = "<group>"; };
+		DFFEF5711682CDFE00C10C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFFEF5731682CDFE00C10C35 /* S3JiraTalkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S3JiraTalkTests.h; sourceTree = "<group>"; };
+		DFFEF5741682CDFE00C10C35 /* S3JiraTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S3JiraTalkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFFEF54A1682CDFE00C10C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFEF5521682CDFE00C10C35 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFEF5621682CDFE00C10C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFEF5681682CDFE00C10C35 /* SenTestingKit.framework in Frameworks */,
+				DFFEF5691682CDFE00C10C35 /* Cocoa.framework in Frameworks */,
+				DFFEF56C1682CDFE00C10C35 /* S3JiraTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFFEF5421682CDFE00C10C35 = {
+			isa = PBXGroup;
+			children = (
+				DFFEF5571682CDFE00C10C35 /* S3JiraTalk */,
+				DFFEF56D1682CDFE00C10C35 /* S3JiraTalkTests */,
+				DFFEF5501682CDFE00C10C35 /* Frameworks */,
+				DFFEF54F1682CDFE00C10C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFFEF54F1682CDFE00C10C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF54E1682CDFE00C10C35 /* S3JiraTalk.framework */,
+				DFFEF5661682CDFE00C10C35 /* S3JiraTalkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFFEF5501682CDFE00C10C35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF5511682CDFE00C10C35 /* Cocoa.framework */,
+				DFFEF5671682CDFE00C10C35 /* SenTestingKit.framework */,
+				DFFEF5531682CDFE00C10C35 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFFEF5531682CDFE00C10C35 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF5541682CDFE00C10C35 /* AppKit.framework */,
+				DFFEF5551682CDFE00C10C35 /* CoreData.framework */,
+				DFFEF5561682CDFE00C10C35 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DFFEF5571682CDFE00C10C35 /* S3JiraTalk */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF55E1682CDFE00C10C35 /* S3JiraTalk.h */,
+				DFFEF55F1682CDFE00C10C35 /* S3JiraTalk.m */,
+				DFFEF5581682CDFE00C10C35 /* Supporting Files */,
+			);
+			path = S3JiraTalk;
+			sourceTree = "<group>";
+		};
+		DFFEF5581682CDFE00C10C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF5591682CDFE00C10C35 /* S3JiraTalk-Info.plist */,
+				DFFEF55A1682CDFE00C10C35 /* InfoPlist.strings */,
+				DFFEF55D1682CDFE00C10C35 /* S3JiraTalk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFFEF56D1682CDFE00C10C35 /* S3JiraTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF5731682CDFE00C10C35 /* S3JiraTalkTests.h */,
+				DFFEF5741682CDFE00C10C35 /* S3JiraTalkTests.m */,
+				DFFEF56E1682CDFE00C10C35 /* Supporting Files */,
+			);
+			path = S3JiraTalkTests;
+			sourceTree = "<group>";
+		};
+		DFFEF56E1682CDFE00C10C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF56F1682CDFE00C10C35 /* S3JiraTalkTests-Info.plist */,
+				DFFEF5701682CDFE00C10C35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DFFEF54B1682CDFE00C10C35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DFFEF54D1682CDFE00C10C35 /* S3JiraTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFEF5781682CDFE00C10C35 /* Build configuration list for PBXNativeTarget "S3JiraTalk" */;
+			buildPhases = (
+				DFFEF5491682CDFE00C10C35 /* Sources */,
+				DFFEF54A1682CDFE00C10C35 /* Frameworks */,
+				DFFEF54B1682CDFE00C10C35 /* Headers */,
+				DFFEF54C1682CDFE00C10C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S3JiraTalk;
+			productName = S3JiraTalk;
+			productReference = DFFEF54E1682CDFE00C10C35 /* S3JiraTalk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFFEF5651682CDFE00C10C35 /* S3JiraTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFEF57B1682CDFE00C10C35 /* Build configuration list for PBXNativeTarget "S3JiraTalkTests" */;
+			buildPhases = (
+				DFFEF5611682CDFE00C10C35 /* Sources */,
+				DFFEF5621682CDFE00C10C35 /* Frameworks */,
+				DFFEF5631682CDFE00C10C35 /* Resources */,
+				DFFEF5641682CDFE00C10C35 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFFEF56B1682CDFE00C10C35 /* PBXTargetDependency */,
+			);
+			name = S3JiraTalkTests;
+			productName = S3JiraTalkTests;
+			productReference = DFFEF5661682CDFE00C10C35 /* S3JiraTalkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFFEF5441682CDFE00C10C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sun, Sea and Sky Factory";
+			};
+			buildConfigurationList = DFFEF5471682CDFE00C10C35 /* Build configuration list for PBXProject "S3JiraTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFFEF5421682CDFE00C10C35;
+			productRefGroup = DFFEF54F1682CDFE00C10C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFFEF54D1682CDFE00C10C35 /* S3JiraTalk */,
+				DFFEF5651682CDFE00C10C35 /* S3JiraTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFFEF54C1682CDFE00C10C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFEF55C1682CDFE00C10C35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFEF5631682CDFE00C10C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFEF5721682CDFE00C10C35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFFEF5641682CDFE00C10C35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFFEF5491682CDFE00C10C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFEF5601682CDFE00C10C35 /* S3JiraTalk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFFEF5611682CDFE00C10C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFEF5751682CDFE00C10C35 /* S3JiraTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFFEF56B1682CDFE00C10C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFFEF54D1682CDFE00C10C35 /* S3JiraTalk */;
+			targetProxy = DFFEF56A1682CDFE00C10C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFFEF55A1682CDFE00C10C35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFEF55B1682CDFE00C10C35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFFEF5701682CDFE00C10C35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFEF5711682CDFE00C10C35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFFEF5761682CDFE00C10C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFFEF5771682CDFE00C10C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFFEF5791682CDFE00C10C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3JiraTalk/S3JiraTalk-Prefix.pch";
+				INFOPLIST_FILE = "S3JiraTalk/S3JiraTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		DFFEF57A1682CDFE00C10C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3JiraTalk/S3JiraTalk-Prefix.pch";
+				INFOPLIST_FILE = "S3JiraTalk/S3JiraTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		DFFEF57C1682CDFE00C10C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3JiraTalk/S3JiraTalk-Prefix.pch";
+				INFOPLIST_FILE = "S3JiraTalkTests/S3JiraTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DFFEF57D1682CDFE00C10C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S3JiraTalk/S3JiraTalk-Prefix.pch";
+				INFOPLIST_FILE = "S3JiraTalkTests/S3JiraTalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFFEF5471682CDFE00C10C35 /* Build configuration list for PBXProject "S3JiraTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFEF5761682CDFE00C10C35 /* Debug */,
+				DFFEF5771682CDFE00C10C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFEF5781682CDFE00C10C35 /* Build configuration list for PBXNativeTarget "S3JiraTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFEF5791682CDFE00C10C35 /* Debug */,
+				DFFEF57A1682CDFE00C10C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFFEF57B1682CDFE00C10C35 /* Build configuration list for PBXNativeTarget "S3JiraTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFFEF57C1682CDFE00C10C35 /* Debug */,
+				DFFEF57D1682CDFE00C10C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFFEF5441682CDFE00C10C35 /* Project object */;
+}
