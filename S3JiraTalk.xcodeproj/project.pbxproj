@@ -156,19 +156,11 @@
 				DFFEF5671682CDFE00C10C35 /* SenTestingKit.framework */,
 				DFFEF58B1682D1B700C10C35 /* Foundation.framework */,
 				DFFEF59B1682D1B700C10C35 /* UIKit.framework */,
-				DFFEF5531682CDFE00C10C35 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DFFEF5531682CDFE00C10C35 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				DFFEF5541682CDFE00C10C35 /* AppKit.framework */,
 				DFFEF5551682CDFE00C10C35 /* CoreData.framework */,
 				DFFEF5561682CDFE00C10C35 /* Foundation.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DFFEF5571682CDFE00C10C35 /* S3JiraTalk */ = {

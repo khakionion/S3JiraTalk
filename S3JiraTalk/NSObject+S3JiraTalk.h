@@ -6,8 +6,6 @@
 //  Copyright (c) 2012 Sun, Sea and Sky Factory. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 @interface NSObject (S3JiraTalk)
 
 -(NSString*)jiraIssue;
