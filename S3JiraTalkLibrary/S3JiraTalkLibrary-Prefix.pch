@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'S3JiraTalkLibrary' target in the 'S3JiraTalkLibrary' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

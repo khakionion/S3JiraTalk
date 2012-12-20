@@ -7,6 +7,7 @@
 //
 
 #import "S3JiraTalkTests.h"
+#import "S3JiraTalk.h"
 
 @implementation S3JiraTalkTests
 
@@ -26,7 +27,9 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in S3JiraTalkTests");
+    NSObject * exampleObject = [[NSObject alloc] init];
+    NSString * myIssueID = [exampleObject jiraIssue];
+    STAssertTrue([myIssueID isEqualToString:@"ID-42"], @"Default issue must be ID-42");
 }
 
 @end

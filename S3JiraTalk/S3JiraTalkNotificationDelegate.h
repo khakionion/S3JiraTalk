@@ -1,4 +1,5 @@
 //
+//  S3JiraTalkNotificationDelegate.h
 //  S3JiraTalk
 //
 //  Created by Michael Herring on 12/19/12.
@@ -6,4 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+S3JiraTalk.h"
+
+@protocol S3JiraTalkNotificationDelegate <NSObject>
+
+@end

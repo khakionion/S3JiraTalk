@@ -1,4 +1,5 @@
 //
+//  NSObject+S3JiraTalk.h
 //  S3JiraTalk
 //
 //  Created by Michael Herring on 12/19/12.
@@ -6,4 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+S3JiraTalk.h"
+
+@interface NSObject (S3JiraTalk)
+
+-(NSString*)jiraIssue;
+
+@end
