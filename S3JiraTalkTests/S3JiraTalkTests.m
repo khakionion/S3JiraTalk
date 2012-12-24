@@ -26,6 +26,10 @@
     NSObject * exampleObject = [[NSObject alloc] init];
     NSString * myIssueID = [exampleObject jiraIssue];
     STAssertTrue([myIssueID isEqualToString:@"ID-42"], @"Default issue must be ID-42");
+    S3JiraAuthentication * authSingleton = [S3JiraAuthentication sharedInstance];
+    STAssertNotNil(authSingleton, @"shared S3JiraAuthentication must not be nil after being accessed.");
+    NSString * apiPrefix = [[S3JiraAuthentication sharedInstance] apiPrefix];
+    STAssertEqualObjects(@"/rest/api/latest/", apiPrefix, @"API prefix must default to '/rest/api/latest/'.");
 }
 
 @end

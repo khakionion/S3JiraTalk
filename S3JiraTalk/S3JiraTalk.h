@@ -6,3 +6,4 @@
 //
 
 #import "NSObject+S3JiraTalk.h"
+#import "S3JiraAuthentication.h"

@@ -37,6 +37,12 @@
 		DF7B355316882DB10071246D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B353716882DB10071246D /* UIImageView+AFNetworking.m */; };
 		DF7B355616882DDC0071246D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B355516882DDC0071246D /* SystemConfiguration.framework */; };
 		DF7B355816882DE40071246D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B355716882DE40071246D /* SystemConfiguration.framework */; };
+		DF7B355A16882E660071246D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DF7B355916882E660071246D /* LICENSE */; };
+		DF7B355D16882F2A0071246D /* S3JiraAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7B355B16882F2A0071246D /* S3JiraAuthentication.h */; };
+		DF7B355E16882F2A0071246D /* S3JiraAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B355C16882F2A0071246D /* S3JiraAuthentication.m */; };
+		DF7B355F16882F2A0071246D /* S3JiraAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B355C16882F2A0071246D /* S3JiraAuthentication.m */; };
+		DF7B3561168833D90071246D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B3560168833D90071246D /* Security.framework */; };
+		DF7B3563168833EC0071246D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B3562168833EC0071246D /* Security.framework */; };
 		DFFEF5521682CDFE00C10C35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFEF5511682CDFE00C10C35 /* Cocoa.framework */; };
 		DFFEF55C1682CDFE00C10C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFFEF55A1682CDFE00C10C35 /* InfoPlist.strings */; };
 		DFFEF5681682CDFE00C10C35 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFEF5671682CDFE00C10C35 /* SenTestingKit.framework */; };
@@ -110,6 +116,11 @@
 		DF7B353716882DB10071246D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		DF7B355516882DDC0071246D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DF7B355716882DE40071246D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		DF7B355916882E660071246D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		DF7B355B16882F2A0071246D /* S3JiraAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S3JiraAuthentication.h; sourceTree = "<group>"; };
+		DF7B355C16882F2A0071246D /* S3JiraAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S3JiraAuthentication.m; sourceTree = "<group>"; };
+		DF7B3560168833D90071246D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		DF7B3562168833EC0071246D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DFFEF54E1682CDFE00C10C35 /* S3JiraTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = S3JiraTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFEF5511682CDFE00C10C35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DFFEF5541682CDFE00C10C35 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -141,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7B3563168833EC0071246D /* Security.framework in Frameworks */,
 				DF7B355616882DDC0071246D /* SystemConfiguration.framework in Frameworks */,
 				DFFEF5521682CDFE00C10C35 /* Cocoa.framework in Frameworks */,
 			);
@@ -160,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7B3561168833D90071246D /* Security.framework in Frameworks */,
 				DF7B355816882DE40071246D /* SystemConfiguration.framework in Frameworks */,
 				DFFEF58C1682D1B700C10C35 /* Foundation.framework in Frameworks */,
 			);
@@ -208,6 +221,7 @@
 		DFFEF5421682CDFE00C10C35 = {
 			isa = PBXGroup;
 			children = (
+				DF7B3562168833EC0071246D /* Security.framework */,
 				DFFEF5571682CDFE00C10C35 /* S3JiraTalk */,
 				DFFEF56D1682CDFE00C10C35 /* S3JiraTalkTests */,
 				DFFEF58D1682D1B700C10C35 /* S3JiraTalkLibrary */,
@@ -231,6 +245,7 @@
 		DFFEF5501682CDFE00C10C35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF7B3560168833D90071246D /* Security.framework */,
 				DF7B355716882DE40071246D /* SystemConfiguration.framework */,
 				DF7B355516882DDC0071246D /* SystemConfiguration.framework */,
 				DFFEF5511682CDFE00C10C35 /* Cocoa.framework */,
@@ -247,10 +262,13 @@
 		DFFEF5571682CDFE00C10C35 /* S3JiraTalk */ = {
 			isa = PBXGroup;
 			children = (
+				DF7B355916882E660071246D /* LICENSE */,
 				DFFEF5581682CDFE00C10C35 /* Supporting Files */,
 				DFFEF57E1682CF2900C10C35 /* NSObject+S3JiraTalk.h */,
 				DFFEF57F1682CF2900C10C35 /* NSObject+S3JiraTalk.m */,
 				DFFEF5841682D0D100C10C35 /* S3JiraTalk.h */,
+				DF7B355B16882F2A0071246D /* S3JiraAuthentication.h */,
+				DF7B355C16882F2A0071246D /* S3JiraAuthentication.m */,
 			);
 			path = S3JiraTalk;
 			sourceTree = "<group>";
@@ -337,6 +355,7 @@
 				DF7B354B16882DB10071246D /* AFURLConnectionOperation.h in Headers */,
 				DF7B354E16882DB10071246D /* AFXMLRequestOperation.h in Headers */,
 				DF7B355116882DB10071246D /* UIImageView+AFNetworking.h in Headers */,
+				DF7B355D16882F2A0071246D /* S3JiraAuthentication.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFFEF55C1682CDFE00C10C35 /* InfoPlist.strings in Resources */,
+				DF7B355A16882E660071246D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +536,7 @@
 				DF7B354C16882DB10071246D /* AFURLConnectionOperation.m in Sources */,
 				DF7B354F16882DB10071246D /* AFXMLRequestOperation.m in Sources */,
 				DF7B355216882DB10071246D /* UIImageView+AFNetworking.m in Sources */,
+				DF7B355E16882F2A0071246D /* S3JiraAuthentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +562,7 @@
 				DF7B354D16882DB10071246D /* AFURLConnectionOperation.m in Sources */,
 				DF7B355016882DB10071246D /* AFXMLRequestOperation.m in Sources */,
 				DF7B355316882DB10071246D /* UIImageView+AFNetworking.m in Sources */,
+				DF7B355F16882F2A0071246D /* S3JiraAuthentication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
