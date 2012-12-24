@@ -11,3 +11,5 @@
 #else
     #import <Cocoa/Cocoa.h>
 #endif
+
+#import <SystemConfiguration/SystemConfiguration.h>
