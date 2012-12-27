@@ -17,8 +17,8 @@
 +(S3JiraAuthentication*)sharedInstance;
 
 //saves password via Keychain Services
--(OSStatus)setData:(NSString*)dataString;
+-(OSStatus)setPassword:(NSString*)password;
 
-//
+-(NSURL*)createURLWithAPISuffix:(NSString*)suffix;
 
 @end
