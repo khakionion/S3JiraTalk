@@ -13,8 +13,12 @@
 //defaults to "/rest/api/latest/"
 @property (strong, nonatomic) NSString * apiPrefix;
 
+//singleton
 +(S3JiraAuthentication*)sharedInstance;
 
--(void)setPassword:(NSString*)newPassword;
+//saves password via Keychain Services
+-(OSStatus)setData:(NSString*)dataString;
+
+//
 
 @end
